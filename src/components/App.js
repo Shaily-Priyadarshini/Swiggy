@@ -14,7 +14,6 @@ const AppLayout = () => {
   return (
     <div className="Main">
       <Header />
-      {/* Outlet renders child route components */}
       <Outlet />
     </div>
   );
