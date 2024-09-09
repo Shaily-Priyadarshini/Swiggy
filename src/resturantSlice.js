@@ -3,7 +3,7 @@ import { createSlice } from '@reduxjs/toolkit';
 const restaurantSlice = createSlice({
   name: 'restaurant',
   initialState: {
-    restaurantList: [], // Your initial state
+    restaurantList: [], 
   },
   reducers: {
     setRestaurantList: (state, action) => {
